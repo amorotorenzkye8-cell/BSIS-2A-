@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>BSIS-2A Academic Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- OFFLINE SCREEN -->
+<div id="offline-screen">
+    <div class="offline-box">
+        <div class="loader"></div>
+        <h2>Loading...</h2>
+        <p>Please connect to the internet.</p>
+    </div>
+</div>
+
+<header>
+    <img src="logo.jpg" alt="Logo">
+    <div>
+        <h1>BSIS-2A</h1>
+        <p class="subtitle">Section Academic Portal</p>
+    </div>
+</header>
+
+<!-- Horizontal Buttons -->
+<div class="subjects-container">
+    <button class="subject-btn active" data-subject="announcement">Announcement</button>
+    <button class="subject-btn" data-subject="is105">IS 105</button>
+    <button class="subject-btn" data-subject="dm103">DM 103</button>
+    <button class="subject-btn" data-subject="quamet">QUAMET</button>
+    <button class="subject-btn" data-subject="ge6">GE 6</button>
+    <button class="subject-btn" data-subject="ge7">GE 7</button>
+    <button class="subject-btn" data-subject="ep2">ELECTIVE 2</button>
+    <button class="subject-btn" data-subject="profel">PROFEL 1</button>
+    <button class="subject-btn" data-subject="pathfit">PATHFIT 4</button>
+</div>
+
+<div class="content-area">
+
+    <!-- ANNOUNCEMENT SECTION -->
+    <div class="subject-content active" id="announcement">
+        <h2>Section Announcements</h2>
+
+        <div class="card announcement-card">
+            <h3>📢 General Meeting</h3>
+            <p>There will be a section meeting this Friday at 3:00 PM.</p>
+            <!-- Manual date & time -->
+            <small class="post-time" data-date="2026-03-26T14:45:00"></small>
+        </div>
+
+        <div class="card announcement-card">
+            <h3>📢 Project Submission Reminder</h3>
+            <p>Please check each subject tab for deadlines.</p>
+            <small class="post-time" data-date="2026-03-25T09:30:00"></small>
+        </div>
+    </div>
+
+    <!-- IS 105 -->
+    <div class="subject-content" id="is105">
+        <h2>IS 105</h2>
+        <p class="desc">Enterprise Architecture</p>
+        <p class="instructor">Instructor: Clarejy Duyag</p>
+
+        <div class="card upcoming-activities">
+            <h3>Upcoming Activities</h3>
+            <ul>
+                <li>Architecture Diagram</li>
+            </ul>
+            <small class="post-time" data-date="2026-03-24T10:00:00"></small>
+        </div>
+
+        <div class="card deadlines">
+            <h3>Deadlines</h3>
+            <ul>
+                <li>Feb 28 – Diagram Submission</li>
+            </ul>
+            <small class="post-time" data-date="2026-02-20T12:00:00"></small>
+        </div>
+    </div>
+
+    <!-- DM 103 -->
+    <div class="subject-content" id="dm103">
+        <h2>DM 103</h2>
+        <p class="desc">Business Process Management</p>
+        <p class="instructor">Instructor: Joan Bernadette Salamoding Atabay</p>
+
+        <div class="card deadlines">
+            <h3>Deadlines</h3>
+            <ul>
+                <li>Mar 3 – BPMN Diagram</li>
+            </ul>
+            <small class="post-time" data-date="2026-03-21T15:30:00"></small>
+        </div>
+    </div>
+
+    <!-- QUAMET -->
+    <div class="subject-content" id="quamet">
+        <h2>QUAMET</h2>
+        <p class="desc">Quantitative Methods</p>
+        <p class="instructor">Instructor: Leo Laurio</p>
+    </div>
+
+    <!-- GE 6 -->
+    <div class="subject-content" id="ge6">
+        <h2>GE 6</h2>
+        <p class="desc">Art Appreciation</p>
+        <p class="instructor">Instructor: Yen Almosara Lalaguna</p>
+    </div>
+
+    <!-- GE 7 -->
+    <div class="subject-content" id="ge7">
+        <h2>GE 7</h2>
+        <p class="desc">Science, Technology and Society</p>
+        <p class="instructor">Instructor: Tricia Mae Recto Letada</p>
+    </div>
+
+    <!-- ELECTIVE 2 -->
+    <div class="subject-content" id="ep2">
+        <h2>ELECTIVE 2</h2>
+        <p class="desc">Environmental Science</p>
+        <p class="instructor">Instructor: Emeros Castillo</p>
+    </div>
+
+    <!-- PROFEL 1 -->
+    <div class="subject-content" id="profel">
+        <h2>PROFEL 1</h2>
+        <p class="desc">Enterprise Systems</p>
+        <p class="instructor">Instructor: Jose Leandro</p>
+    </div>
+
+    <!-- PATHFIT 4 -->
+    <div class="subject-content" id="pathfit">
+        <h2>PATHFIT 4</h2>
+        <p class="desc">Outdoor and Adventure Activities</p>
+        <p class="instructor">Instructor: Rachelle Nicole Borgonia Lotivio</p>
+    </div>
+
+</div>
+
+<footer>
+    Discovered by Renz Amoroto
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
